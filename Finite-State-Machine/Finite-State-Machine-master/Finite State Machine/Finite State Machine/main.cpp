@@ -22,7 +22,9 @@
 
 
 
-#include "Animation.h"
+#include "State.h"
+#include <thread>
+#include <chrono>
 /// <summary>
 /// main enrtry point
 /// </summary>
@@ -35,11 +37,15 @@ int main()
 	{
 		if (i == 0)
 		{
-
+			fsm.digging();
+			std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+			i = 1;
 		}
 		else
 		{
-
+			fsm.swordsmanship();
+			std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+			i = 0;
 		}
 	}
 	return 0;

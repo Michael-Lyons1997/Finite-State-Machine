@@ -1,0 +1,23 @@
+﻿  hammering.cpp
+c:\users\c00217557\desktop\tempii\finite-state-machine\finite-state-machine\finite-state-machine-master\finite state machine\finite state machine\hammering.h(11): error C2061: syntax error: identifier 'idle'
+  Walking.cpp
+c:\users\c00217557\desktop\tempii\finite-state-machine\finite-state-machine\finite-state-machine-master\finite state machine\finite state machine\walking.h(11): error C2061: syntax error: identifier 'idle'
+  Swordsmanship.cpp
+c:\users\c00217557\desktop\tempii\finite-state-machine\finite-state-machine\finite-state-machine-master\finite state machine\finite state machine\swordsmanship.h(11): error C2061: syntax error: identifier 'idle'
+  Digging.cpp
+c:\users\c00217557\desktop\tempii\finite-state-machine\finite-state-machine\finite-state-machine-master\finite state machine\finite state machine\digging.h(11): error C2061: syntax error: identifier 'idle'
+  Animation.cpp
+c:\users\c00217557\desktop\tempii\finite-state-machine\finite-state-machine\finite-state-machine-master\finite state machine\finite state machine\animation.cpp(7): error C2061: syntax error: identifier 'walking'
+c:\users\c00217557\desktop\tempii\finite-state-machine\finite-state-machine\finite-state-machine-master\finite state machine\finite state machine\animation.cpp(17): error C2027: use of undefined type 'State'
+  c:\users\c00217557\desktop\tempii\finite-state-machine\finite-state-machine\finite-state-machine-master\finite state machine\finite state machine\animation.h(4): note: see declaration of 'State'
+c:\users\c00217557\desktop\tempii\finite-state-machine\finite-state-machine\finite-state-machine-master\finite state machine\finite state machine\animation.cpp(17): error C2227: left of '->walking' must point to class/struct/union/generic type
+c:\users\c00217557\desktop\tempii\finite-state-machine\finite-state-machine\finite-state-machine-master\finite state machine\finite state machine\animation.cpp(22): error C2027: use of undefined type 'State'
+  c:\users\c00217557\desktop\tempii\finite-state-machine\finite-state-machine\finite-state-machine-master\finite state machine\finite state machine\animation.h(4): note: see declaration of 'State'
+c:\users\c00217557\desktop\tempii\finite-state-machine\finite-state-machine\finite-state-machine-master\finite state machine\finite state machine\animation.cpp(22): error C2227: left of '->digging' must point to class/struct/union/generic type
+c:\users\c00217557\desktop\tempii\finite-state-machine\finite-state-machine\finite-state-machine-master\finite state machine\finite state machine\animation.cpp(27): error C2027: use of undefined type 'State'
+  c:\users\c00217557\desktop\tempii\finite-state-machine\finite-state-machine\finite-state-machine-master\finite state machine\finite state machine\animation.h(4): note: see declaration of 'State'
+c:\users\c00217557\desktop\tempii\finite-state-machine\finite-state-machine\finite-state-machine-master\finite state machine\finite state machine\animation.cpp(27): error C2227: left of '->hammering' must point to class/struct/union/generic type
+c:\users\c00217557\desktop\tempii\finite-state-machine\finite-state-machine\finite-state-machine-master\finite state machine\finite state machine\animation.cpp(32): error C2027: use of undefined type 'State'
+  c:\users\c00217557\desktop\tempii\finite-state-machine\finite-state-machine\finite-state-machine-master\finite state machine\finite state machine\animation.h(4): note: see declaration of 'State'
+c:\users\c00217557\desktop\tempii\finite-state-machine\finite-state-machine\finite-state-machine-master\finite state machine\finite state machine\animation.cpp(32): error C2227: left of '->swordsmanship' must point to class/struct/union/generic type
+  Generating Code...

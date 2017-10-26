@@ -25,7 +25,6 @@
     <ClCompile Include="Swordsmanship.cpp" />
     <ClCompile Include="idle.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="State.cpp" />
     <ClCompile Include="Walking.cpp" />
   </ItemGroup>
   <ItemGroup>
