@@ -23,6 +23,7 @@
     <ClCompile Include="Digging.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="hammering.cpp" />
+    <ClCompile Include="jumping.cpp" />
     <ClCompile Include="Swordsmanship.cpp" />
     <ClCompile Include="idle.cpp" />
     <ClCompile Include="main.cpp" />
@@ -33,6 +34,7 @@
     <ClInclude Include="Digging.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="hammering.h" />
+    <ClInclude Include="jumping.h" />
     <ClInclude Include="Swordsmanship.h" />
     <ClInclude Include="idle.h" />
     <ClInclude Include="State.h" />

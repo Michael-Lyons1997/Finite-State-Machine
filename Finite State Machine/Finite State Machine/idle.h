@@ -18,5 +18,6 @@ public:
 	void Digging(Animation* a);
 	void Hammering(Animation* a);
 	void Swordsmanship(Animation* a);
+	void Jumping(Animation* a);
 };
 #include "State.h"

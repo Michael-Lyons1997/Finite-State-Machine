@@ -74,6 +74,9 @@ void Game::processGameEvents(sf::Event& event)
 			fsm.walking();
 			std::this_thread::sleep_for(std::chrono::milliseconds(2000));
 			break;
+		case sf::Keyboard::J:
+			fsm.jumping();
+			std::this_thread::sleep_for(std::chrono::milliseconds(2000));
 		default:
 			break;
 		}

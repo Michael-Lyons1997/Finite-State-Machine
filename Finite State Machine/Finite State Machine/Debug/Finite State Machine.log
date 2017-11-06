@@ -1,3 +1,14 @@
-﻿  Game.cpp
+﻿  idle.cpp
+  jumping.cpp
+  Game.cpp
+  Animation.cpp
+  Generating Code...
+  Compiling...
+  Walking.cpp
+  main.cpp
+  Swordsmanship.cpp
+  hammering.cpp
+  Digging.cpp
+  Generating Code...
   Finite State Machine.vcxproj -> C:\Users\C00217557\Desktop\Finite-State-Machine-master\Finite-State-Machine\Finite-State-Machine-master\Finite State Machine\Debug\Finite State Machine.exe
   Finite State Machine.vcxproj -> C:\Users\C00217557\Desktop\Finite-State-Machine-master\Finite-State-Machine\Finite-State-Machine-master\Finite State Machine\Debug\Finite State Machine.pdb (Partial PDB)

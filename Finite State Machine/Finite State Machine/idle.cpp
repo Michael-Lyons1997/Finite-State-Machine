@@ -45,3 +45,10 @@ void Idle::Swordsmanship(Animation * a)
 	a->setCurrent(new Idle());
 	delete this;
 }
+
+void Idle::Jumping(Animation * a)
+{
+	std::cout << "WEEEEEEEEEE!!!!!!!!!!!" << std::endl;
+	a->setCurrent(new Idle());
+	delete this;
+}

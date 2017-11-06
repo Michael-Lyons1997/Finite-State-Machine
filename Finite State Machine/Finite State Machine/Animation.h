@@ -23,6 +23,7 @@ public:
 	void digging();
 	void hammering();
 	void swordsmanship();
+	void jumping();
 };
 #include "State.h"
 #include "idle.h"

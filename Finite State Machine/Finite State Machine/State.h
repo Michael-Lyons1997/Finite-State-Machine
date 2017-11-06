@@ -31,6 +31,10 @@ public:
 	{
 		std::cout << "I am using a sword." << std::endl;
 	}
+	virtual void Jumping(Animation *a)
+	{
+		std::cout << "WEEEEEEEEEE!!!!!!!!!!!!!" << std::endl;
+	}
 };
 
 #include "Animation.h"

@@ -43,3 +43,8 @@ void Animation::swordsmanship()
 {
 	current->Swordsmanship(this);
 }
+
+void Animation::jumping()
+{
+	current->Jumping(this);
+}
