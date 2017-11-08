@@ -60,5 +60,7 @@ protected:
 	void processGameEvents(sf::Event&);
 
 	// main window
+	sf::Font m_font;
+	sf::Text m_instructions;
 	sf::RenderWindow m_window;
 };

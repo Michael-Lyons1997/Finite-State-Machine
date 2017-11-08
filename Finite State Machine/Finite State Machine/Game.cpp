@@ -9,6 +9,15 @@ Game::Game()
 	: m_window(sf::VideoMode(800, 400, 32), "SFML Playground", sf::Style::Default)
 {
 	m_window.setVerticalSyncEnabled(true);
+	if (!m_font.loadFromFile("ASSETS\\FONTS\\ariblk.ttf"))
+	{
+		std::cout << "problem loading arial black font" << std::endl;
+	}
+	m_instructions.setFont(m_font);
+	m_instructions.setPosition(0.0f, 0.0f);
+	m_instructions.setCharacterSize(24);
+	m_instructions.setString("Use D for digging, H for hammering, \nJ for jumping, S for swordsmanship, and W for walking");
+
 }
 
 ////////////////////////////////////////////////////////////
@@ -93,6 +102,7 @@ void Game::update(double dt)
 void Game::render()
 {
 	m_window.clear();
+	m_window.draw(m_instructions);
 	m_window.display();
 }
 
