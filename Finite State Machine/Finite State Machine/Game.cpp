@@ -16,7 +16,7 @@ Game::Game()
 	m_instructions.setFont(m_font);
 	m_instructions.setPosition(0.0f, 0.0f);
 	m_instructions.setCharacterSize(24);
-	m_instructions.setString("Use D for digging, H for hammering, \nJ for jumping, S for swordsmanship, and W for walking");
+	m_instructions.setString("Use C for climbing, D for digging, H for hammering, \nJ for jumping, S for swordsmanship, and W for walking");
 
 }
 
@@ -62,6 +62,7 @@ void Game::processEvents()
 ////////////////////////////////////////////////////////////
 void Game::processGameEvents(sf::Event& event)
 {
+	fsm.idle();
 	// check if the event is a a mouse button release
 	if (sf::Event::KeyPressed == event.type)
 	{
@@ -86,11 +87,14 @@ void Game::processGameEvents(sf::Event& event)
 		case sf::Keyboard::J:
 			fsm.jumping();
 			std::this_thread::sleep_for(std::chrono::milliseconds(2000));
+		case sf::Keyboard::C:
+			fsm.climbing();
+			std::this_thread::sleep_for(std::chrono::milliseconds(2000));
+			break;
 		default:
 			break;
 		}
 	}
-	fsm.idle();
 }
 
 ////////////////////////////////////////////////////////////

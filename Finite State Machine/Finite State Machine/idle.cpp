@@ -52,3 +52,10 @@ void Idle::Jumping(Animation * a)
 	a->setCurrent(new Idle());
 	delete this;
 }
+
+void Idle::Climbing(Animation * a)
+{
+	std::cout << "I am now climbing. Up I go." << std::endl;
+	a->setCurrent(new Idle());
+	delete this;
+}

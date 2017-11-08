@@ -13,7 +13,7 @@ class State
 public:
 	virtual void Idle(Animation* a)
 	{
-		std::cout << "Waiting for your command my lord" << std::endl;
+		std::cout << "Waiting for your command my lord." << std::endl;
 	}
 	virtual void Walking(Animation* a)
 	{
@@ -34,6 +34,10 @@ public:
 	virtual void Jumping(Animation *a)
 	{
 		std::cout << "WEEEEEEEEEE!!!!!!!!!!!!!" << std::endl;
+	}
+	virtual void Climbing(Animation *a)
+	{
+		std::cout << "Up I go." << std::endl;
 	}
 };
 

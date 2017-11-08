@@ -48,3 +48,8 @@ void Animation::jumping()
 {
 	current->Jumping(this);
 }
+
+void Animation::climbing()
+{
+	current->Climbing(this);
+}

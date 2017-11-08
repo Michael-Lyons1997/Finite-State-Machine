@@ -42,6 +42,9 @@
     <ClCompile Include="jumping.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Climbing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animation.h">
@@ -69,6 +72,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="jumping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Climbing.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

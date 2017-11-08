@@ -24,6 +24,7 @@ public:
 	void hammering();
 	void swordsmanship();
 	void jumping();
+	void climbing();
 };
 #include "State.h"
 #include "idle.h"
