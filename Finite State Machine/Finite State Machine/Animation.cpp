@@ -22,34 +22,41 @@ Animation::~Animation()
 void Animation::idle()
 {
 	current->Idle(this);
+	setCurrent(current);
 }
 
 void Animation::walking()
 {
 	current->Walking(this);
+	setCurrent(current);
 }
 
 void Animation::digging()
 {
 	current->Digging(this);
+	setCurrent(current);
 }
 
 void Animation::hammering()
 {
 	current->Hammering(this);
+	setCurrent(current);
 }
 
 void Animation::swordsmanship()
 {
 	current->Swordsmanship(this);
+	setCurrent(current);
 }
 
 void Animation::jumping()
 {
 	current->Jumping(this);
+	setCurrent(current);
 }
 
 void Animation::climbing()
 {
 	current->Climbing(this);
+	setCurrent(current);
 }
