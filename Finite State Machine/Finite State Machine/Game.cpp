@@ -16,7 +16,7 @@ Game::Game()
 	m_instructions.setFont(m_font);
 	m_instructions.setPosition(0.0f, 0.0f);
 	m_instructions.setCharacterSize(24);
-	m_instructions.setString("Use C for climbing, D for digging, H for hammering, \nJ for jumping, S for swordsmanship, and W for walking");
+	m_instructions.setString("Use:\nC for climbing, \nD for digging, \nH for hammering, \nJ for jumping, \nS for swordsmanship, \nW for walking");
 
 }
 
